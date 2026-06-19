@@ -20,12 +20,42 @@ export const COMMON_SKILLS = [
 ];
 
 export const SECTION_KEYWORDS = {
-  experience: ['experience', 'work history', 'employment', 'professional background', 'career', 'positions held', 'work experience'],
-  education: ['education', 'academic', 'degree', 'university', 'college', 'school', 'qualification', 'certification', 'certificate'],
-  skills: ['skills', 'technical skills', 'competencies', 'technologies', 'tools', 'proficiencies', 'expertise'],
-  summary: ['summary', 'objective', 'profile', 'about', 'overview', 'professional summary'],
-  projects: ['projects', 'portfolio', 'work samples', 'accomplishments'],
-  achievements: ['achievements', 'awards', 'honors', 'recognition', 'accomplishments'],
+  experience: [
+    'experience', 'work history', 'employment', 'professional background',
+    'career', 'positions held', 'work experience', 'professional experience',
+    'job history', 'internship', 'internships', 'volunteering', 'volunteer experience',
+    'industry experience', 'relevant experience',
+  ],
+  education: [
+    'education', 'academic', 'degree', 'university', 'college', 'school',
+    'qualification', 'certification', 'certificate', 'coursework', 'training',
+    'academic background', 'educational background', 'studies', 'bachelor',
+    'master', 'diploma', 'b.tech', 'b.e.', 'm.tech', 'b.sc', 'm.sc', 'mba',
+  ],
+  skills: [
+    'skills', 'technical skills', 'competencies', 'technologies', 'tools',
+    'proficiencies', 'expertise', 'core skills', 'key skills', 'skill set',
+    'languages', 'frameworks', 'software', 'technical proficiency', 'capabilities',
+  ],
+  summary: [
+    'summary', 'objective', 'profile', 'about', 'overview', 'professional summary',
+    'career objective', 'career summary', 'personal statement', 'introduction',
+    'professional profile', 'executive summary', 'about me',
+  ],
+  projects: [
+    // ← broad match: any heading containing "project"
+    'project',
+    // explicit variants
+    'projects', 'personal projects', 'academic projects', 'key projects',
+    'project work', 'project experience', 'selected projects', 'notable projects',
+    'major projects', 'relevant projects', 'side projects', 'open source',
+    'portfolio', 'work samples', 'case studies', 'capstone',
+  ],
+  achievements: [
+    'achievements', 'awards', 'honors', 'recognition', 'accomplishments',
+    'certifications', 'publications', 'patents', 'conferences', 'distinctions',
+    'leadership', 'activities', 'extracurricular', 'interests', 'hobbies',
+  ],
 };
 
 const ACTION_VERBS = [

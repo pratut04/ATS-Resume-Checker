@@ -262,7 +262,7 @@ export default function App() {
                 </div>
 
                 {/* Tabs + content */}
-                <div className="grid grid-cols-1 xl:grid-cols-[240px_1fr] gap-6 items-start">
+                <div className="grid grid-cols-1 xl:grid-cols-[240px_1fr] gap-6">
 
                   {/* Mobile/tablet: horizontal tabs */}
                   <div className="xl:hidden">
@@ -284,7 +284,7 @@ export default function App() {
                   </div>
 
                   {/* Desktop: vertical sidebar — PREMIUM */}
-                  <div className="hidden xl:flex flex-col sidebar-panel p-6 sm:p-8 h-full">
+                  <div className="hidden xl:flex flex-col sidebar-panel p-6 sm:p-8 justify-between">
                     {/* Navigation label */}
                     <p className="sidebar-section-label">&nbsp; &nbsp;Navigation</p>
 
